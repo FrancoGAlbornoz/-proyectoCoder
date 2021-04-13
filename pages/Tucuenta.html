@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../estilos/estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600&display=swap" rel="stylesheet">
+	<title>E-Tienda DE TECNOLOGIA</title>
+</head>
+
+<body>
+
+	<header>
+
+		<a href="../index.html" class="menuindex">
+		<img class="logotipo" src="../imagenes/logotipo.png" alt="E-Tienda">
+	
+
+	<div>
+	<nav>
+
+
+	<ul class="menuindex">
+		<li><a class="menuitem" href="../index.html" >Inicio </a></li>
+		<li><a class="menuitem" href="../pages/Contacto.html">Contacto </a></li>
+
+		<li><a class="menuitem" href="../pages/Tienda.html" >Tienda </a>
+			<ul>
+				<li><a class="subtienda" href="">Teclados</a></li>
+				<li><a class="subtienda" href="">Mouse</a></li>
+				<li><a class="subtienda" href="">Microfonos</a></li>
+				<li><a class="subtienda" href="">Auriculares</a></li>
+			</ul>
+		</li>
+
+		<li><a class="menuitem" href="../pages/Servicios.html">Servicios </a>
+			<ul>
+				<li><a class="subserv" href="">Mantenimiento y arreglos de PC</a></li>
+				<li><a class="subserv" href="">Instalador de softwares</a></li>
+			</ul>
+		</li>
+		
+		
+		<li><a class="menuitem" href="../pages/Tucuenta.html" >Tu cuenta</a>
+			<ul>
+				<li><a class="subcuenta" href="">Facturas de compra</a></li>
+				<li><a class="subcuenta" href="">Informacion de pedidos</a></li>
+				<li><a class="subcuenta" href="">Preguntas frecuentes</a></li>
+			</ul>
+		</li>
+		
+	
+	
+
+
+	</ul>
+
+	</nav>
+	</div>
+	
+
+	
+
+	</header>
+
+
+	<div class="container center">
+    
+    <form action="contacto.html" method="GET" class="formulariocuenta">
+      
+      <h1 class="formulario__titulo">
+        Cuenta E-Tienda
+      </h1>
+      
+      <h4 class="formulario__subtitulo">
+        ¿Sos cliente?
+      </h4>
+      
+      <input type="radio" id="cliente_si" class="cliente_si" name="cliente" value="1">
+      <label class="pointer" for="cliente_si">
+        Si, tengo cuenta
+      </label>
+      
+      <input type="radio" id="cliente_no" class="cliente_no" name="cliente" value="0">
+      <label class="pointer" for="cliente_no">
+        No, quiero registrarme
+      </label>      
+      
+      <div class="paso-1-A">
+        
+        <label for="email">Email</label>
+        <input type="email" name="email">
+        
+         <label for="password">Contraseña</label>
+        <input type="password" name="password">
+        <input class="none" type="button" value="Ingresar">
+        
+      </div>
+      
+      <div class="paso-1-B">
+        
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre">
+        
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido">
+        
+        <label for="nombre">Email</label>
+        <input type="email" name="email">
+        
+        <label for="password">Password</label>
+        <input type="password" name="password">
+        <input class="none" type="button" value="Registrarme">
+        
+      </div>
+      
+     
+      
+    </form>
+  </div>
+
+
+
+
+
+
+	
+</body>
+</html>
