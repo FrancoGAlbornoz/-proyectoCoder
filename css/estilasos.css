@@ -1,0 +1,472 @@
+h2, h3 {
+  color: white; }
+
+#subx3 {
+  color: #15009e;
+  text-align: center; }
+
+.prodest {
+  color: white; }
+
+.subtienda {
+  text-decoration: none;
+  color: white;
+  font-size: 13px; }
+
+.subserv {
+  text-decoration: none;
+  color: white;
+  font-size: 13px; }
+
+.subcuenta {
+  text-decoration: none;
+  color: white;
+  font-size: 13px; }
+
+table {
+  border: 2px solid; }
+
+li {
+  color: white;
+  display: inline-block;
+  width: 25%;
+  position: relative;
+  font-size: 12px;
+  width: 250px;
+  height: 40px;
+  text-decoration: none; }
+
+ul {
+  list-style-type: disc;
+  list-style: none;
+  font-size: 0;
+  text-decoration: none;
+  color: white;
+  padding: 0; }
+
+ul ul {
+  position: absolute;
+  display: none;
+  text-decoration: none;
+  color: white; }
+
+ul ul li {
+  text-decoration: none;
+  color: white;
+  width: 100%; }
+
+ul li:hover ul {
+  display: block;
+  text-decoration: none;
+  color: white; }
+
+ul li:hover ul a:hover {
+  display: block;
+  text-decoration: none;
+  font-size: 13px; }
+
+table {
+  display: table;
+  margin: 0 auto; }
+
+th {
+  border: 0.5px solid;
+  background-color: #d4f6ff; }
+
+td {
+  color: white; }
+
+#redestit {
+  color: #15009e; }
+
+.menuindex a:hover {
+  color: #2d54d6;
+  text-decoration: none;
+  font-weight: 200px;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px; }
+
+.menuitem {
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase; }
+
+header {
+  background-color: black;
+  display: flex;
+  flex-direction: row; }
+
+body {
+  font-family: 'Shippori Mincho B1', serif;
+  background-color: #d4f6ff;
+  height: 1280px; }
+
+a:hover {
+  text-decoration: none;
+  background-color: #6baaf2; }
+
+.imagenbutton {
+  background-image: url("https://images.unsplash.com/photo-1567928513899-997d98489fbd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px black solid; }
+
+button {
+  border-radius: 50px;
+  background-color: #d4f6ff;
+  font-family: 'Shippori Mincho B1', serif;
+  color: black; }
+
+.logotipo {
+  background-color: black; }
+
+footer {
+  font-style: italic;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 70px auto;
+  padding-top: 30px; }
+
+.iconostitulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-right: 285px;
+  padding-left: 285px;
+  margin: 70px auto;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+
+.historia {
+  text-align: center;
+  font-style: italic;
+  width: 500px;
+  height: 300px;
+  border-right-width: 1px;
+  border-right-style: solid; }
+
+.historiap {
+  text-align: center; }
+
+.stock {
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.exper {
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.atencion {
+  height: 100px;
+  margin-left: 100px;
+  margin-right: 100px; }
+
+.facebookicon {
+  width: 75px;
+  height: 75px;
+  padding-right: 30px;
+  padding-left: 30px; }
+
+.instagramicon {
+  width: 75px;
+  height: 75px;
+  padding-right: 30px;
+  padding-left: 30px; }
+
+.whatsappicon {
+  width: 75px;
+  height: 75px;
+  padding-right: 30px;
+  padding-left: 30px; }
+
+#serviciostitular {
+  text-align: center;
+  color: #15009e;
+  margin-top: 50px; }
+
+#imagerep {
+  height: 500px;
+  width: 700px; }
+
+#imagesoft {
+  height: 500px;
+  width: 700px; }
+
+.serviciosiconos {
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.reparacion, .software {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: center; }
+
+.reparacion, .software {
+  transition: all 2s;
+  filter: blur(1px) grayscale(100%); }
+
+.reparacion:hover {
+  filter: blur(0) grayscale(0%); }
+
+.software:hover {
+  filter: blur(0) grayscale(0%); }
+
+.serviciosiconos h3 {
+  color: #15009e; }
+
+.logoscontacto1 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: left;
+  padding-left: 10px; }
+
+.logoscontacto2 {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: left;
+  padding-left: 10px; }
+
+.contactocontacto {
+  margin-top: 50px; }
+
+.contactoconjunto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  border-right-width: 1px;
+  border-right-style: solid;
+  height: 300px; }
+
+.contactoconjunto2 {
+  display: flex;
+  flex-direction: row; }
+
+.formularioinicio {
+  padding-left: 10px; }
+
+/** CUENTA**/
+* {
+  box-sizing: content-box; }
+
+:root {
+  --main-color: #D4DCFF;
+  --primary-color: #7D83FF;
+  --secondary-color: #007FFF;
+  --light-color: #D4DCFF;
+  --dark-color: #15009e; }
+
+.container {
+  padding-left: 500px;
+  padding-right: 500px;
+  padding-top: 20px; }
+
+.formulariocuenta {
+  background: var(--dark-color);
+  color: var(--light-color);
+  width: 500px;
+  height: 500px;
+  padding: 40px; }
+
+.formulario__titulo {
+  text-align: center;
+  color: var(--main-color); }
+
+.formulario__subtitulo {
+  color: var(--main-color);
+  margin: 30px 0px; }
+
+/*
+#cliente_si:checked ~ .paso-1-A {
+  display:none;
+}
+*/
+input#cliente_si:checked ~ div.paso-1-A, input#cliente_si:checked ~ input[type="submit"] {
+  display: block; }
+
+input#cliente_no:checked ~ div.paso-1-B, input#cliente_no:checked ~ input[type="submit"] {
+  display: block; }
+
+.paso-1-A {
+  display: none;
+  padding: 20px; }
+
+.paso-1-A > input {
+  margin: 10px 0px;
+  display: block; }
+
+.paso-1-B {
+  display: none;
+  padding: 20px; }
+
+.paso-1-B > input {
+  margin: 10px 0px;
+  display: block; }
+
+/* Helpers */
+.center {
+  margin: auto;
+  width: 25%; }
+
+.pointer {
+  cursor: pointer; }
+
+.none {
+  display: none; }
+
+/* TIENDA */
+.grillatienda {
+  display: grid;
+  width: 100%;
+  height: 1280px;
+  color: white;
+  grid-template-columns: 250px repeat(1, auto);
+  grid-template-rows: 100px 300px 300px 300px;
+  grid-template-areas: "titulo titulo titulo" "categoria prod1 prod2" "categoria prod3 prod4" "categoria prod5 prod6"; }
+
+.grillacat {
+  border-color: black;
+  border-style: groove;
+  text-decoration: none;
+  color-font: black; }
+
+.item.categoria {
+  grid-area: categoria;
+  text-decoration: none;
+  color: black; }
+
+.prod1 {
+  height: 290px;
+  color: black;
+  background-color: white;
+  grid-area: prod1;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: black;
+  border-style: groove; }
+
+.prod2 {
+  height: 290px;
+  color: black;
+  background-color: white;
+  grid-area: prod2;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: black;
+  border-style: groove; }
+
+.prod3 {
+  height: 290px;
+  color: black;
+  background-color: white;
+  grid-area: prod3;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: black;
+  border-style: groove; }
+
+.prod4 {
+  height: 290px;
+  color: black;
+  background-color: white;
+  grid-area: prod4;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: black;
+  border-style: groove; }
+
+.prod5 {
+  height: 290px;
+  color: black;
+  background-color: white;
+  grid-area: prod5;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: black;
+  border-style: groove; }
+
+.prod6 {
+  height: 290px;
+  color: black;
+  background-color: white;
+  grid-area: prod6;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: black;
+  border-style: groove; }
+
+#productosTitulo {
+  background-color: black;
+  color: white;
+  grid-area: titulo; }
+
+#tecladotienda {
+  text-decoration: none;
+  color: black;
+  width: 100px;
+  height: 30px; }
+
+.borde {
+  border: 3px black; }
+
+#titproduc {
+  margin-top: 15px; }
+
+.grillaindex {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  color: white;
+  grid-template-columns: 100%;
+  background-image: linear-gradient(to bottom, #d4f6ff, #d4f6ff, #d4f6ff, black, black);
+  grid-template-rows: 200px 300px 200px 200px;
+  grid-template-areas: "header" "botont" "exp" "footer"; }
+
+.grillaheader {
+  grid-area: header; }
+
+.grillabotont {
+  grid-area: botont; }
+
+.grillaexp {
+  grid-area: exp; }
+
+.grillafooter {
+  grid-area: footer; }
