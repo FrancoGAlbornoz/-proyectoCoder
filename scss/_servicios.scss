@@ -1,0 +1,50 @@
+#serviciostitular{
+	text-align: center;
+	color:#15009e;
+	margin-top: 50px; 
+
+}
+#imagerep{
+	height: 500px;
+    width: 700px;
+}
+
+
+#imagesoft{
+	height: 500px;
+    width: 700px;
+}
+
+.serviciosiconos{
+	margin:10px 10px 10px 10px ;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.reparacion, .software{
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: center;
+
+
+
+}
+
+
+.serviciosiconos h3{
+	color: #15009e;
+}
+
+.reparacion, .software{
+  transition: all 2s;
+  filter:blur(1px) grayscale(100%)
+}
+.reparacion:hover{
+	filter:blur(0) grayscale(0%)
+}
+
+.software:hover {
+  filter:blur(0) grayscale(0%)
+}

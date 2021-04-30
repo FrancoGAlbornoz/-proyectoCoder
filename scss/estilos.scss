@@ -1,3 +1,8 @@
+@import "tienda";
+@import "cuenta";
+@import "grillaindex";
+@import "servicios";
+@import "contacto";
 h2, h3{
 	color: white;
 
@@ -103,10 +108,7 @@ td{
 	color: white;
 }
 
-#redestit{
 
-	color:#15009e;
-}
 
 .menuindex a:hover{
 	
@@ -214,12 +216,21 @@ footer{
 
 }
 .historia{
-	text-align: center;
+	h5{
+		text-align: center;
+	p{
+
 	font-style: italic;
 	width: 500px;
 	height: 300px;
 	border-right-width: 1px;
 	border-right-style: solid;
+
+	}
+	
+	
+	}
+	
 
 }
 .historiap{
@@ -265,56 +276,7 @@ footer{
 	padding-left: 30px;
 }
 
-#serviciostitular{
-	text-align: center;
-	color:#15009e;
-	margin-top: 50px; 
 
-}
-#imagerep{
-	height: 500px;
-    width: 700px;
-}
-
-
-#imagesoft{
-	height: 500px;
-    width: 700px;
-}
-
-.serviciosiconos{
-	margin:10px 10px 10px 10px ;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-.reparacion, .software{
-	display: flex;
-	flex-direction: column;
-	margin-right: 50px;
-	margin-left: 50px;
-	text-align: center;
-
-
-
-}
-.reparacion, .software{
-  transition: all 2s;
-  filter:blur(1px) grayscale(100%)
-}
-.reparacion:hover{
-	filter:blur(0) grayscale(0%)
-}
-
-.software:hover {
-  filter:blur(0) grayscale(0%)
-}
-
-
-
-.serviciosiconos h3{
-	color: #15009e;
-}
 .logoscontacto1{
 	display: flex;
 	flex-direction: row;
@@ -323,17 +285,7 @@ footer{
 	text-align: left;
 	padding-left: 10px;
 }
-.logoscontacto2{
-	display: flex;
-	flex-direction: row;
-	margin-right: 50px;
-	margin-left: 50px;
-	text-align: left;
-	padding-left: 10px;
-}
-.contactocontacto{
-	margin-top: 50px;
-}
+
 .contactoconjunto{
 	display: flex;
 	flex-direction: column;
@@ -344,11 +296,7 @@ footer{
 	height: 300px;
 
 }
-.contactoconjunto2{
-	display: flex;
-	flex-direction: row;
-	
-}
+
 .formularioinicio{
 	padding-left: 10px;
 
@@ -356,249 +304,4 @@ footer{
 
 /** CUENTA**/
 
-* {
-  	box-sizing: content-box;
-}
 
-:root {
-  --main-color: #D4DCFF;
-  --primary-color: #7D83FF;
-  --secondary-color: #007FFF;
-  --light-color: #D4DCFF;
-  --dark-color: #15009e;
-}
-
-.container {
-  	padding-left: 500px;
-	padding-right: 500px;
-	padding-top: 20px;
-}
-
-.formulariocuenta {
-  	background:  var(--dark-color);
- 	color: var(--light-color);
-  	width: 500px;
-  	height: 500px;
-  	padding: 40px;
-}
-
-.formulario__titulo {
-  	text-align: center;
-  	color: var(--main-color);
-}
-
-.formulario__subtitulo {
-  	color: var(--main-color);
-  	margin: 30px 0px;
-}
-
-/*
-#cliente_si:checked ~ .paso-1-A {
-  display:none;
-}
-*/
-
-input#cliente_si:checked ~ div.paso-1-A, input#cliente_si:checked ~ input[type="submit"] {
-  	display: block;
-}
-
-input#cliente_no:checked ~ div.paso-1-B, input#cliente_no:checked ~ input[type="submit"] {
-  	display: block;
-}
-
-.paso-1-A {
-  	display: none;
-  	padding: 20px;
-}
-
-.paso-1-A > input {
- 	margin: 10px 0px;
-  	display: block;
-}
-
-.paso-1-B {
-  	display: none;
-  	padding: 20px;
-}
-
-.paso-1-B > input {
-  	margin: 10px 0px;
-  	display: block;
-}
-
-/* Helpers */
-
-.center {
-  	margin: auto;
-  	width: 25%;
-}
-
-.pointer {
-  	cursor: pointer;
-}
-
-.none {
-  	display: none;
-}
-
-/* TIENDA */
-
-.grillatienda{
-	display: grid;
-	width: 100%;
-	height: 1280px;
-	color: white;
-	grid-template-columns: 250px repeat(1, auto);
-	grid-template-rows: 100px 300px 300px 300px;
-	grid-template-areas:
-	"titulo titulo titulo"
-	"categoria prod1 prod2"
-	"categoria prod3 prod4"
-	"categoria prod5 prod6"; 
-
-}
-.grillacat{
-	border-color: black;
-	border-style: groove;
-	text-decoration: none;
-	color-font: black;
-}
-
-.item.categoria{
-	grid-area: categoria;
-	text-decoration: none;
-	color: black;
-
-
-
-
-}
-.prod1{
-
-	height: 290px;
-	color:black;
-	background-color: white;
-	grid-area:prod1;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-color: black;
-	border-style: groove;
-}
-.prod2{
-
-	height: 290px;
-	color:black;
-	background-color: white;
-	grid-area:prod2;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-color: black;
-	border-style: groove;
-}
-.prod3{
-
-	height: 290px;
-	color:black;
-	background-color: white;
-	grid-area:prod3;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-color: black;
-	border-style: groove;
-}
-.prod4{
-	
-	height: 290px;
-	color:black;
-	background-color: white;
-	grid-area:prod4;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-color: black;
-	border-style: groove;
-}
-.prod5{
-	
-	height: 290px;
-	color:black;
-	background-color: white;
-	grid-area:prod5;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-color: black;
-	border-style: groove;
-}
-.prod6{
-	
-	height: 290px;
-	color:black;
-	background-color: white;
-	grid-area:prod6;
-	margin-bottom: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
-	border-color: black;
-	border-style: groove;
-}
-#productosTitulo{
-	background-color: black;
-	color: white;
-	grid-area: titulo;
-}
-#tecladotienda{
-	text-decoration: none;
-	color: black;
-	width: 100px;
-	height: 30px;
-}
-
-.borde{
-	border: 3px black;
-}
-
-#titproduc{
-	margin-top: 15px;
-}
-
-
-.grillaindex{
-	display: grid;
-	width: 100%;
-	height: 100%;
-	color: white;
-	grid-template-columns: 100%;
-	background-image: linear-gradient(to bottom, #d4f6ff, #d4f6ff, #d4f6ff, black, black);
-	grid-template-rows: 200px 300px 200px 200px;
-	grid-template-areas:
-	"header"
-	"botont"
-	"exp"
-	"footer"; 
-}
-
-.grillaheader{
-	grid-area: header;
-}
-
-.grillabotont{
-	grid-area: botont;
-}
-
-.grillaexp{
-	grid-area: exp;
-}
-
-.grillafooter{
-	grid-area: footer;
-}

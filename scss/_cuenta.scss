@@ -1,0 +1,85 @@
+
+* {
+  	box-sizing: content-box;
+}
+
+:root {
+  --main-color: #D4DCFF;
+  --primary-color: #7D83FF;
+  --secondary-color: #007FFF;
+  --light-color: #D4DCFF;
+  --dark-color: #15009e;
+}
+
+.container {
+  	padding-left: 500px;
+	padding-right: 500px;
+	padding-top: 20px;
+}
+
+.formulariocuenta {
+  	background:  var(--dark-color);
+ 	  color: var(--light-color);
+  	width: 500px;
+  	height: 500px;
+  	padding: 40px;
+}
+
+.formulario__titulo {
+  	text-align: center;
+  	color: var(--main-color);
+}
+
+.formulario__subtitulo {
+  	color: var(--main-color);
+  	margin: 30px 0px;
+}
+
+/*
+#cliente_si:checked ~ .paso-1-A {
+  display:none;
+}
+*/
+
+input#cliente_si:checked ~ div.paso-1-A, input#cliente_si:checked ~ input[type="submit"] {
+  	display: block;
+}
+
+input#cliente_no:checked ~ div.paso-1-B, input#cliente_no:checked ~ input[type="submit"] {
+  	display: block;
+}
+
+.paso-1-A {
+  	display: none;
+  	padding: 20px;
+}
+
+.paso-1-A > input {
+ 	margin: 10px 0px;
+  	display: block;
+}
+
+.paso-1-B {
+  	display: none;
+  	padding: 20px;
+}
+
+.paso-1-B > input {
+  	margin: 10px 0px;
+  	display: block;
+}
+
+/* Helpers */
+
+.center {
+  	margin: auto;
+  	width: 25%;
+}
+
+.pointer {
+  	cursor: pointer;
+}
+
+.none {
+  	display: none;
+}

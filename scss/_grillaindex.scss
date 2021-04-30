@@ -1,0 +1,36 @@
+.grillaindex{
+	ol{
+		li{
+			text-decoration: none;
+		}
+		
+	}
+	display: grid;
+	width: 100%;
+	height: 100%;
+	color: white;
+	grid-template-columns: 100%;
+	background-image: linear-gradient(to bottom, #d4f6ff, #d4f6ff, #d4f6ff, black, black);
+	grid-template-rows: 200px 300px 300px 200px;
+	grid-template-areas:
+	"header"
+	"botont"
+	"exp"
+	"footer"; 
+}
+
+.grillaheader{
+	grid-area: header;
+}
+
+.grillabotont{
+	grid-area: botont;
+}
+
+.grillaexp{
+	grid-area: exp;
+}
+
+.grillafooter{
+	grid-area: footer;
+}
