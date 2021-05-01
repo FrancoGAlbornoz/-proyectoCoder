@@ -83,3 +83,12 @@ input#cliente_no:checked ~ div.paso-1-B, input#cliente_no:checked ~ input[type="
 .none {
   	display: none;
 }
+
+.logoscontacto2{
+  @extend .facebookicon;
+  @extend .instagramicon;
+  @extend .whatsappicon;
+  
+
+}
+  

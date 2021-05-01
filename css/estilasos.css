@@ -439,19 +439,19 @@ footer {
   margin-left: 100px;
   margin-right: 100px; }
 
-.facebookicon {
+.facebookicon, .logoscontacto2 {
   width: 75px;
   height: 75px;
   padding-right: 30px;
   padding-left: 30px; }
 
-.instagramicon {
+.instagramicon, .logoscontacto2 {
   width: 75px;
   height: 75px;
   padding-right: 30px;
   padding-left: 30px; }
 
-.whatsappicon {
+.whatsappicon, .logoscontacto2 {
   width: 75px;
   height: 75px;
   padding-right: 30px;
