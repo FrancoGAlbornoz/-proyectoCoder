@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="./css/estilasos.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -23,37 +24,30 @@
 		<img class="logotipo" src="./imagenes/logotipo.png" alt="E-Tienda">
 
 		<!--((Buscador))-->
-			<div>
-				<nav>
+		<div>
+				<nav class="navbar navbar-expand-lg navbar-black bg-black">
+	   			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      		<span class="navbar-toggler-icon"></span>>
+	      		</button>
+	      		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 
-					<ul class="menuindex">
-						<li><a class="menuitem" href="index.html" >Inicio </a></li>
-						<li><a class="menuitem" href="./pages/Contacto.html">Contacto </a></li>
-
-						<li><a class="menuitem" href="./pages/Tienda.html" >Tienda </a>
-							<ul>
-								<li><a class="subtienda" href="">Teclados</a></li>
-								<li><a class="subtienda" href="">Mouse</a></li>
-								<li><a class="subtienda" href="">Microfonos</a></li>
-								<li><a class="subtienda" href="">Auriculares</a></li>
-							</ul>
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menuindex">
+						<li>
+							<a class="nav-item" href="index.html">Inicio </a>
+						</li>
+						<li>
+							<a class="nav-item" href="./pages/Contacto.html">Contacto </a></li>
+						<li>
+							<a class="nav-item" href="./pages/Tienda.html" >Tienda </a>
 						</li>
 
-						<li><a class="menuitem" href="./pages/Servicios.html">Servicios </a>
-							<ul>
-								<li><a class="subserv" href="">Mantenimiento y arreglos de PC</a></li>
-								<li><a class="subserv" href="">Instalador de softwares</a></li>
-							</ul>
+						<li>
+							<a class="nav-item" href="./pages/Servicios.html">Servicios </a>
 						</li>
 						
-						
-						<li><a class="menuitem" href="./pages/Tucuenta.html" >Tu cuenta</a>
-							<ul>
-								<li><a class="subcuenta" href="">Facturas de compra</a></li>
-								<li><a class="subcuenta" href="">Informacion de pedidos</a></li>
-								<li><a class="subcuenta" href="">Preguntas frecuentes</a></li>
-							</ul>
+						<li>
+							<a class="nav-item" href="./pages/Tucuenta.html" >Tu cuenta</a>
 						</li>
 					
 			
@@ -63,9 +57,13 @@
 					</ul>
 
 				</nav>
-			</div>
+		</div>
 
+		
 	</header>	
+
+			
+
 
 
 	<div class="grillabotont">
@@ -193,7 +191,7 @@
 	</div>
 		
 		
-
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 
 </html>
