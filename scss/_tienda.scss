@@ -20,6 +20,14 @@
 	"categoria prod5 prod6"; 
 
 }
+
+@media only screen and (min-width: 768px) {
+	.grillatienda{
+		grid-template-columns: 250px repeat(1, auto);
+	}
+	
+}
+
 .grillacat{
 	border-color: black;
 	border-style: groove;
@@ -136,3 +144,5 @@
 #titproduc{
 	margin-top: 15px;
 }
+
+

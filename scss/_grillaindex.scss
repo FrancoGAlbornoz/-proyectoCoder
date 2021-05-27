@@ -34,3 +34,17 @@
 .grillafooter{
 	grid-area: footer;
 }
+
+@media only screen and (min-width: 768px) {
+	.grillaindex{
+		grid-template-columns: 250px repeat(1, auto);
+	}
+	
+}
+
+@media only screen and (min-width: 600px) {
+	.grillaindex{
+		grid-template-columns: 250px repeat(1, auto);
+	}
+	
+}
