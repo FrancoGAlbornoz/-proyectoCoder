@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="../css/estilasos.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600&display=swap" rel="stylesheet">
+	<script defer src="logeo.js"></script>
 	<title>E-Tienda Tu cuenta</title>
 </head>
 
@@ -57,7 +58,7 @@
 
 	<div class="container center">
     
-    <form action="contacto.html" method="GET" class="formulariocuenta">
+    <form  method="GET" class="formulariocuenta">
       
       <h1 class="formulario__titulo">
         Cuenta E-Tienda
@@ -80,10 +81,10 @@
       <div class="paso-1-A">
         
         <label for="email">Email</label>
-        <input type="email" name="email">
+        <input type="email" name="email" id="email">
         
          <label for="password">Contraseña</label>
-        <input type="password" name="password">
+        <input type="password" name="password" id="pass">
         <input class="none" type="button" value="Ingresar">
         
       </div>
@@ -91,17 +92,17 @@
       <div class="paso-1-B">
         
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre">
+        <input type="text" name="nombre" id="nombre">
         
         <label for="apellido">Apellido</label>
-        <input type="text" name="apellido">
+        <input type="text" name="apellido" id="apellido">
         
         <label for="nombre">Email</label>
-        <input type="email" name="email">
+        <input type="email" name="email" id="mail">
         
         <label for="password">Password</label>
-        <input type="password" name="password">
-        <input class="none" type="button" value="Registrarme">
+        <input type="password" name="password" id="pass">
+        <button>Registrarme</button>
         
       </div>
       

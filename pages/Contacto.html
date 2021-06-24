@@ -7,7 +7,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600&display=swap" rel="stylesheet"> 
 	<meta name="description" content="Conseguí lo que buscás en nuestra tienda. Contactate por cualquier consulta, y seguinos en nuestras redes!.">
-	<script src="../contact.js"></script>>
+	<script defer src="contact.js"></script>
+	
 	<title>E-Tienda Contacto</title>
 </head>
 
@@ -78,14 +79,14 @@
 	</div>
 
 
-	<form action="contact.html" method="GET" class="contactocontacto">
+	<form class="contactocontacto">
 	  
 		<label for="Nombre">Nombre y apellido</label><br>
 		<input type="text" id="fname" name="Nombre" value=""><br>
 	  
 	  
 		<label for="email">E-Mail:</label><br>
-		<input type="text" name="email"> <br>
+		<input type="text" id="mail" name="email" > <br>
 
 		<label for="consulta">En que te ayudamos?</label><br>
 	  
@@ -111,7 +112,7 @@
 
 	  	<label for="deacuerdo"> Acepto</label><br>
 	  
-	  	<input type="submit" value="Enviar"><br>
+	  	<button>Enviar</button>
   
 	</form> 
 
