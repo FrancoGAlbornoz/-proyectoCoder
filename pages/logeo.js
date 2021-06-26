@@ -54,7 +54,7 @@ let mail = document.querySelector('#mail')
 
 
 
-let btn = document.querySelector('button')
+let btn = document.querySelector('#Registrarme')
 
 btn.addEventListener('click', function (event) {
   event.preventDefault()
