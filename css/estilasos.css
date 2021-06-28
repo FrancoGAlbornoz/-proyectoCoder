@@ -5,7 +5,10 @@
   color: white;
   grid-template-columns: 250px repeat(1, auto);
   grid-template-rows: 100px 300px 300px 300px;
-  grid-template-areas: "titulo titulo titulo" "categoria prod1 prod2" "categoria prod3 prod4" "categoria prod5 prod6"; }
+  grid-template-areas: "titulo titulo titulo"
+ "categoria prod1 prod2"
+ "categoria prod3 prod4"
+ "categoria prod5 prod6"; }
   .grillatienda ol {
     text-decoration: none; }
   .grillatienda li {
@@ -192,7 +195,10 @@ input#cliente_no:checked ~ div.paso-1-B, input#cliente_no:checked ~ input[type="
   grid-template-columns: 100%;
   background-image: linear-gradient(to bottom, #d4f6ff, #d4f6ff, #d4f6ff, black, black);
   grid-template-rows: repeat(4, auto);
-  grid-template-areas: "header" "botont" "exp" "footer"; }
+  grid-template-areas: "header"
+ "botont"
+ "exp"
+ "footer"; }
   .grillaindex ol li {
     text-decoration: none; }
 
@@ -491,3 +497,7 @@ footer {
   padding-left: 10px; }
 
 /** CUENTA**/
+
+#titsim{
+  color: black;
+}
