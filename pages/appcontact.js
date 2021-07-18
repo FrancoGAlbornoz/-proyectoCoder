@@ -71,7 +71,32 @@ function handleClick(){
      
 
  	}
-	$('#formEnviar').on('click' , ()=> alert("Comentario enviado con exito."))
+
+
+  const URLGET = "https://jsonplaceholder.typicode.com/posts"
+  const infoPost ={apellido: "Perez", mail:"example@gmail.com"}
+
+  $("body").prepend('<button id="formEnviar"></button>');
+
+  $("formEnviar").click( () =>{
+      $.post(URLGET,infoPost, (respuesta,estado)=>{
+        if(estado==="sucess"){
+
+          $("body").prepend(`<div>Guardado:${respuesta.apellido}</div>`);
+          alert("Comentario con exito");
+        } else{
+          $("body").prepend(`<di>Response:${respuesta}</di>`);
+          alert("Error");
+
+        }
+      })
+
+
+
+
+
+
+  });
 
 }
 
